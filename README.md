@@ -61,7 +61,7 @@ Params:
     -ar 16000 : sets the audio sample rate to 16.0 kHz, which is a standard sample rate for speech recognition.
     -ac 1 : specifies that the output audio should have one channel (mono).
     -af silenceremove=1:0:-50dB:detection=peak : remove silence in the output file.
-    -af arnndn=m=/media/data/prototypes/ConsoleAppSpeechRecognition/mp.rnnn : add noise suppression filter.
+    -af arnndn=m=/data/mp.rnnn : add noise suppression filter.
 ```
 
 ### Download full Russian pre-trained models for speech recognition from [alphacephei.com](https://alphacephei.com/vosk/models)
