@@ -70,7 +70,7 @@ wget https://alphacephei.com/vosk/models/vosk-model-ru-0.42.zip
 unzip vosk-model-ru-0.42.zip
 ```
 
-### Set the correct paths to models and wav files in Program.cs (extract data.zip)
+### Set the correct paths to models and wav files in Program.cs
 ```
 // wav files:
 private const string InputWavFileNameShort = "/data/test_256kbps_16000hz_mono.wav";
